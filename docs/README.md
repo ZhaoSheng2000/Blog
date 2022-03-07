@@ -1,15 +1,4 @@
-<!--
- * @Author       : Sam Zhao
- * @Date         : 1985-10-26 16:15:00
- * @LastEditTime : 2022-03-07 10:42:43
- * @LastEditors  : Sam Zhao
- * @Description  :
- * Copyright 2022 Sam Zhao, All Rights Reserved.
--->
-
-# 前言
-
-> 反正也没人看到就不写前言了
+> 写给自己看的
 
 - ⏳ 为了方便记录学过和复习过的一些知识，以及日常的一些问题处理的过程，同时也方便日后的查漏补缺
 - ✨ 同时还记录了对于一些事物的灵感

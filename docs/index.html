@@ -1,17 +1,9 @@
-<!--
- * @Author       : Sam Zhao
- * @Date         : 1985-10-26 16:15:00
- * @LastEditTime : 2022-03-07 10:39:45
- * @LastEditors  : Sam Zhao
- * @Description  : 
- * Copyright 2022 Sam Zhao, All Rights Reserved. 
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>赵盛的博客</title>
+  <title>前端，但不限于前端</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -25,24 +17,58 @@
 
   </nav>
   <div id="app">
+    👣⏳加载中...
   </div>
   <script>
     window.$docsify = {
-      name: '前端，但不限于前端',
+      name: '<span>前端，但不限于前端</span>',
       repo: 'https://github.com/ZhaoSheng2000/Blog',
       coverpage: true,
+      loadNavbar: true,
+      mergeNavbar: true,
+
+      loadSidebar: true,
+      auto2top: true,
+      notFoundPage: '404.md',
+      themeColor: '#b4bcfa',
+      autoHeader: true,
+
+
+
+
+      //字数统计
       count: {
         countable: true,
         fontsize: '0.9em',
         color: 'rgb(90,90,90)',
         language: 'chinese'
-      }
+      },
+      //页脚
+      footer: {
+        copy: '如鱼饮水，冷暖自知。<br/><br/>',
+        pre: '<hr/>',
+        style: 'text-align: left;',
+      },
+      // 全文搜索
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 Type to search ',
+        noData: 'No Results 🧐',
+        depth: 6
+      },
+
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- 字数统计 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 复制到剪贴板 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- 页脚 -->
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/docsify-footer-enh.min.js"></script>
+  <!-- 全文搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
 </body>
 

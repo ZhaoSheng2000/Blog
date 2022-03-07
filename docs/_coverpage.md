@@ -8,4 +8,4 @@
 - 总要留下点什么
 
 [GitHub](https://github.com/ZhaoSheng2000)
-[开始阅读](#前言)
+[开始阅读](/README)

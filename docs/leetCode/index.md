@@ -9,6 +9,10 @@
 ### 二叉树
 ### 回溯算法
 ### 贪心算法
+- [买卖股票的最佳时机](leetcode/stock.md)
+
 ### 动态规划
 ### 手写代码
-- [快速排序](leetcode/../quickSort.md)
+- [快速排序](leetcode/quickSort.md)
+
+

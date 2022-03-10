@@ -8,8 +8,9 @@
    -  [二分查找](leetcode/binary-search.md)
    - [二叉树的中序遍历](leetcode/binary-tree-inorder-traversal.md)
    - [买卖股票的最佳时机](leetcode/stock.md)
+   - [最大子序和](leetCode/maximum-subarray.md)
 - **手写代码 ✍️**
-  - [快速排序](leetcode/quickSort.md)
+  - [快速排序](write/quickSort.md)
   
 -  **有趣的玩意儿 🥳**
    - [桌面小组件之Scriptable](interesting/scriptable.md)

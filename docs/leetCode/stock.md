@@ -1,4 +1,4 @@
-### 买卖股票的最佳时机
+### 题目描述
 
 leetcode链接：[121.买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
     
@@ -25,6 +25,7 @@ leetcode链接：[121.买卖股票的最佳时机](https://leetcode-cn.com/probl
 ```
 
 ---
+### 解题
 >上来就是一个暴力算法！
 ```
 var maxProfit = function(prices){

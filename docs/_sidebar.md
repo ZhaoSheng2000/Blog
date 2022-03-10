@@ -5,7 +5,12 @@
 - **HTTP 🛰**
   - [聊一聊WebSocket](http/WebSocket.md)
 -  **LeetCode 💡**
-   -  [我的刷题目录](leetCode/index.md)
+   -  [二分查找](leetcode/binary-search.md)
+   - [二叉树的中序遍历](leetcode/binary-tree-inorder-traversal.md)
+   - [买卖股票的最佳时机](leetcode/stock.md)
+- **手写代码 ✍️**
+  - [快速排序](leetcode/quickSort.md)
+  
 -  **有趣的玩意儿 🥳**
    - [桌面小组件之Scriptable](interesting/scriptable.md)
 -  **Electron 🖥**
@@ -16,12 +21,12 @@
    - [electron打包](electron/package.md)
    - [electron配置app icon](electron/icon.md)
 -  **开发工具 🛠**
-  - [node版本管理工具n](devTool/n.md)
-  - [node工具nodemon的使用](devTool/nodemon.md)
+   - [node版本管理工具n](devTool/n.md)
+   - [node工具nodemon的使用](devTool/nodemon.md)
 - **服务器/运维 ⚙️**
   - [pm2常用命令](server/pm2.md)
 - **未来 🔮**
   - [Cocos](future/Cocos.md)
-- 
+  
 
 

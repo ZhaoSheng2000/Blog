@@ -36,3 +36,24 @@ var maxDepth = function(root) {
 };
 ```
 
+再来层序遍历
+```
+var maxDepth = function(root) {
+    let deep =0;
+    let queue =[root];
+    if(!root) return 0;
+    while(queue.length){
+        //层数+1
+        deep++;
+        let size = queue.length;
+        while(size--){ //当前层搞完
+            let node = queue.shift();
+            node.left&&queue.push(node.left);
+            node.right&&queue.push(node.right);
+        }
+    }
+    return deep;
+};
+```
+
+或者是完全不改代码，直接就是层序遍历那一套，返回直接``res.length`` 就可以了。

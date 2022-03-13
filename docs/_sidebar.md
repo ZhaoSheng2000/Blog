@@ -14,7 +14,8 @@
    - [用栈实现队列](leetCode/stack-queue.md)
 - **手写代码 ✍️**
   - [快速排序](write/quickSort.md)
-  - 
+  - [正则表达式处理URL](write/url.md)
+  - [查找json中的children路径](write/json-children.md)
   
 -  **有趣的玩意儿 🥳**
    - [桌面小组件之Scriptable](interesting/scriptable.md)

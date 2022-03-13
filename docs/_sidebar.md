@@ -8,10 +8,13 @@
    -  [二分查找](leetcode/binary-search.md)
    - [买卖股票的最佳时机](leetcode/stock.md)
    - [最大子序和](leetCode/maximum-subarray.md)
+   - [无重复字符的最长子串](leetCode/longest-substring-without-repeating-characters.md)
    - [二叉树的中序遍历](leetcode/binary-tree-inorder-traversal.md)
    - [二叉树的层序遍历](leetcode/binary-tree-level-order-traversal.md)
    - [二叉树的最大深度](leetCode/maximum-depth.md)
+   - [二叉树的路径和](leetCode/path-sum.md)
    - [用栈实现队列](leetCode/stack-queue.md)
+  
 - **手写代码 ✍️**
   - [快速排序](write/quickSort.md)
   - [正则表达式处理URL](write/url.md)

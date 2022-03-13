@@ -38,7 +38,7 @@ var lengthOfLongestSubstring = function(s) {
     let left = 0; //指针的下标
     let map = new Map();
     for(let i = 0; i< s.length;i++){
-        if(map.has(s[i])&&map.get(s[i])>=left){ //如果表中有
+        if(map.has(s[i])&&map.get(s[i])>=left){ //如果表中有,指针后移
           left = map.get(s[i])+1;
         }
         map.set(s[i],i)
@@ -46,3 +46,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return res;
 };
+```

@@ -62,5 +62,4 @@ var maxProfit = function(prices){
     return max;
 }
 ```
-
 **还写什么代码，我就是下一个巴菲特啊！**

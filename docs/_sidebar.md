@@ -9,6 +9,7 @@
    - [买卖股票的最佳时机](leetcode/stock.md)
    - [最大子序和](leetCode/maximum-subarray.md)
    - [最长递增子序列 (dp系列)](leetCode/longest-increasing-subsequence.md)
+   - [最长连续递增子序列](leetCode/最长连续递增序列.md)
    - [无重复字符的最长子串](leetCode/longest-substring-without-repeating-characters.md)
    - [二叉树的中序遍历](leetcode/binary-tree-inorder-traversal.md)
    - [二叉树的层序遍历](leetcode/binary-tree-level-order-traversal.md)

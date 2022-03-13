@@ -29,6 +29,7 @@
 ---
 ### 解题
 
+#### 暴力破解
 > 不要跟我讲什么框架，上来就是两层for循环，所有情况挑选最大，简单粗暴（我猜会超时）
 
 直接上代码
@@ -54,6 +55,7 @@ var maxSubArray = function (nums) {
 
 ![](https://raw.githubusercontent.com/ZhaoSheng2000/imgBed/main/img/202203101637867.png)
 
+#### 贪心算法
 那么接下来就来搞一搞「贪心算法」
 
 ```
@@ -79,6 +81,7 @@ var maxSubArray = function (nums) {
 
 贪心算法也不满足，要举一反三嘛,下面就要祭出我的好大哥「动态规划」
 
+#### 动态规划
 >动态规划就是缓存一堆数据的迭代（之前计算过的）结果，在下一次的时候直接用，来减少运算量。
 
 简单理一下思路：
@@ -123,6 +126,10 @@ var maxSubArray = function (nums) {
 完美通过！
 
 ![](https://raw.githubusercontent.com/ZhaoSheng2000/imgBed/main/img/202203101721091.png)
+
+
+
+
 
 
 

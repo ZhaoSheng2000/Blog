@@ -1,7 +1,7 @@
 - **简介 📚**
   - [前言](README.md)
 - **JavaScrip 🪴**
-  - [八股文](javaScript/index.md)
+  - [基础](javaScript/index.md)
 - **HTTP 🛰**
   - [聊一聊WebSocket](http/WebSocket.md)
 -  **LeetCode 💡**

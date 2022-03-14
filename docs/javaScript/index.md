@@ -265,6 +265,16 @@ React并不会把事件处理函数直接绑定到真实dom上，而是通过``R
 w3c制定了统一的标准：**先捕获再冒泡**
 
 可以通过``addEventListener()``第三个参数来确定是捕获还是冒泡，默认为false，代表冒泡。
+useCapture：布尔值，规定是否是捕获型，默认为 false（冒泡）。因为是可选的，往往也会省略它。
+
+addeventListener的第三个参数除了设置事件流还能写什么？
+- 对象``{}``
+```
+el.addEventListener(type, listener, {
+    capture: false, // === useCapture 
+    once: false,    // 是否设置单次监听
+    passive: false  // 是否让 阻止默认行为(preventDefault()) 失效
+```
 
 
 

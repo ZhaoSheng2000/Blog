@@ -173,7 +173,7 @@ WebSocket protocol是HTML5一种新的协议。它实现了浏览器与服务器
 原生WebSocket API使用起来不太方便，我们使用Socket.io，它很好地封装了webSocket接口，提供了更简单、灵活的接口，也对不支持webSocket的浏览器提供了向下兼容。
 
 
-## 闭包
+### 闭包
 > 闭包："有权访问另一个函数作用域中变量的函数"
 
 

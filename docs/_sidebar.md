@@ -18,6 +18,7 @@
    - [二叉树的最大深度](leetCode/maximum-depth.md)
    - [二叉树的路径和](leetCode/path-sum.md)
    - [二叉树的路径和ii](leetCode/%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C2.md)
+   - [二叉树的所有路径](leetCode/二叉树的所有路径.md)
    - [二叉树的左叶子之和](leetCode/左叶子之和.md)
    - [用栈实现队列](leetCode/stack-queue.md)
 - **手写代码 ✍️**

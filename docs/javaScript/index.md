@@ -1,5 +1,100 @@
 >连八股文都不懂，怎么敢在前端混下去？
 
+
+### JS继承
+#### 原型链继承
+ js中new实例的过程就是通过prototype的构造函数来创建实例对象，所以继承的本质就是重写原型对象，代之以一个新类型的实例。
+```
+//父亲的构造函数
+function Father() {
+}
+
+//给父添加方法
+Father.prototype.work = function () {
+    console.log('刷碗');
+};
+
+//儿子的构造函数
+function Son() {
+}
+
+//将父亲的实例覆盖儿子的原型对象，这样儿子的实例就继承了父亲
+Son.prototype = new Father();
+
+new Father().work();//刷碗
+new Son().work();//刷碗
+```
+
+#### 构造函数继承（经典继承）
+  使用父类的构造函数来增强子类实例，等同于复制父类的实例给子类（不使用原型）
+
+```
+//父亲的构造函数
+function Father() {
+    this.hobby = ['吃饭','睡觉'];
+}
+//儿子的构造函数
+function Son() {
+    Father.call(this);
+}
+
+console.log(new Father().hobby);
+console.log(new Son().hobby);
+```
+核心代码是``Father.call(this)``，创建子类实例时调用``Father``构造函数，于是``Son``的每个实例都会将Father中的属性复制一份。换种方式理解，通过call将Father的实例里面的this指向Son。不过这种只能继承父类实例的属性和方法,不能继承原型的属性和方法。
+
+
+#### 组合继承（常用）
+组合上述两种方法就是组合继承。用「原型链」实现对**原型属性**和**方法**的继承，用借用「构造函数」技术来实现**实例属性**的继承。
+
+
+```
+//父亲的构造函数
+function Father() {
+    this.hobby = ['吃饭','睡觉'];
+}
+
+//给父添加方法
+Father.prototype.work = function () {
+    console.log('刷碗');
+};
+
+//儿子的构造函数
+function Son() {
+    Father.call(this);
+}
+
+Son.prototype = new Father();
+Son.prototype.constructor = Son;
+
+let father = new Father();
+let son = new Son();
+console.log(father.hobby);
+console.log(son.hobby);
+father.work();//刷碗
+son.work();//刷碗
+```
+
+
+### ES6 中的 Class 和extends
+
+```
+class Father{
+    constructor(name){
+        this.name = name;
+    }
+
+    work(){
+        console.log(this.name+'刷碗');
+    }
+}
+
+class Son extends Father{
+}
+
+new Son('儿子').work();
+```
+
 ### let const var
 let声明变量，const声明常量，let声明的变量在未声明前会出现不允许使用，会出现「暂时性死区」
 var没有块的概念，可以先使用，后声明，因为有“变量提升”
